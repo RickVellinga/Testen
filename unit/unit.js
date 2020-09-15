@@ -34,6 +34,6 @@ function Auto(merk, bouwjaar) {
       voorraad = voorraad + 2;
     }
     this.verlaagMeerVoorraad = function() {
-      voorraad = voorraad + 2;
+      voorraad = voorraad - 2;
     }
   }
